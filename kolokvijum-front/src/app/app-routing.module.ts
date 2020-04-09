@@ -1,21 +1,22 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ProductsComponent } from './products/products.component';
+import { UsersComponent } from './users/users.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { AuthGuard } from './auth/auth.guard';
+import { EditUserComponent } from './users/edit-user/edit-user.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'products',
+    redirectTo: 'users',
     pathMatch: 'full'
   },
   {
-    path: 'products',
+    path: 'users',
     canActivate: [AuthGuard],
-    component: ProductsComponent,
-    data: { title: 'List of Products' }
+    component: UsersComponent,
+    data: { title: 'List of Users' }
   },
   {
     path: 'login',
@@ -26,6 +27,11 @@ const routes: Routes = [
     path: 'register',
     component: RegisterComponent,
     data: { title: 'Register' }
+  },
+  {
+    path: 'users/:id',
+    component: EditUserComponent,
+    data: { title: 'Edit User' }
   }
 ];
 

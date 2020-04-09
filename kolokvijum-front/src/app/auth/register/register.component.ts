@@ -20,7 +20,7 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
 export class RegisterComponent implements OnInit {
 
   registerForm: FormGroup;
-  fullName = '';
+  fullname = '';
   email = '';
   password = '';
   isLoadingResults = false;
@@ -30,7 +30,7 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit() {
     this.registerForm = this.formBuilder.group({
-      'fullName' : [null, Validators.required],
+      'fullname' : [null, Validators.required],
       'email' : [null, Validators.required],
       'password' : [null, Validators.required]
     });

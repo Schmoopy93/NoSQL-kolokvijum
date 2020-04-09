@@ -1,0 +1,37 @@
+<body>
+    <div class="button-row">
+      <a mat-flat-button color="primary" (click)="logout()">Logout</a>
+      &nbsp;
+      <a mat-flat-button color="primary" (click)="removeAllUsers()">Delete All Users</a>
+      &nbsp;
+      <a mat-flat-button color="primary" (click)="downloadAllUsersXsls()">Export All As Excel</a>
+      &nbsp;
+      <a mat-flat-button color="primary" (click)="import()">Import as Excel</a>
+      <label class="btn btn-default">
+        <input type="file" [(ngModel)]="path">
+     </label>
+    </div>
+    <div class="container">
+        <table id="example" class="table table-responsive w-100 d-block d-md-table" style="width:100%">
+            <thead style="background: #090a11;">
+                <tr>
+                    <th>Email</th>
+                    <th>Fullname</th>
+                    <th style="width: 20%;">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of users">
+                    <td style="text-align: center;">{{ user.email }}</td>
+                    <td style="text-align: center;"> {{ user.fullname }}</td>
+                    <td>
+                        <a (click)="deleteUser(user.id)" class="btn btn-danger"> <i class="fa fa-trash-o"></i>
+                          Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+ 
+</body>

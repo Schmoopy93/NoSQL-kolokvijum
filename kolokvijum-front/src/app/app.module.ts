@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ProductsComponent } from './products/products.component';
+import { UsersComponent } from './users/users.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { TokenInterceptor } from './interceptors/token.interceptor';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {
   MatInputModule,
   MatPaginatorModule,
@@ -21,14 +21,17 @@ import {
   MatButtonModule,
   MatCardModule,
   MatFormFieldModule } from '@angular/material';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { EditUserComponent } from './users/edit-user/edit-user.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductsComponent,
+    UsersComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    UsersComponent,
+    EditUserComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +47,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    FormsModule
   ],
   providers: [
     {
