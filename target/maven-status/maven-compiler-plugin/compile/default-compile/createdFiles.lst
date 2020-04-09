@@ -1,0 +1,16 @@
+com\djamware\springangularauth\configs\JwtTokenProvider.class
+com\djamware\springangularauth\configs\JwtTokenFilter.class
+com\djamware\springangularauth\configs\JwtConfigurer.class
+com\djamware\springangularauth\configs\WebSecurityConfig.class
+com\djamware\springangularauth\repositories\RoleRepository.class
+com\djamware\springangularauth\controllers\AuthController.class
+com\djamware\springangularauth\ServletInitializer.class
+com\djamware\springangularauth\controllers\AuthBody.class
+com\djamware\springangularauth\repositories\UserRepository.class
+com\djamware\springangularauth\models\Products.class
+com\djamware\springangularauth\repositories\ProductRepository.class
+com\djamware\springangularauth\SpringAngularAuthApplication.class
+com\djamware\springangularauth\models\Role.class
+com\djamware\springangularauth\models\User.class
+com\djamware\springangularauth\services\CustomUserDetailsService.class
+com\djamware\springangularauth\controllers\ProductController.class

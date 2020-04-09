@@ -1,0 +1,16 @@
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\controllers\ProductController.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\models\User.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\controllers\AuthBody.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\configs\JwtConfigurer.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\configs\JwtTokenFilter.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\repositories\ProductRepository.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\ServletInitializer.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\configs\WebSecurityConfig.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\models\Role.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\SpringAngularAuthApplication.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\configs\JwtTokenProvider.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\repositories\RoleRepository.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\services\CustomUserDetailsService.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\repositories\UserRepository.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\models\Products.java
+C:\Users\Admin\eclipse-workspace\kolokvijum\src\main\java\com\djamware\springangularauth\controllers\AuthController.java
